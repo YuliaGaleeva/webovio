@@ -13,8 +13,7 @@ html {
     flex-shrink: 0;
     width: 1440px;
     height: 820px;
-    background: url("/img/bg.png");
-    background-repeat: no-repeat;
+    background: url("/img/bg.png"), no-repeat;
 }
 .header_top{
     display: block;
@@ -28,8 +27,6 @@ html {
     margin-right: 2px;
 }
 .logo2{
-    /* width: 190.082px;
-    height: 33.045px; */
     flex-shrink: 0;
     padding-bottom: 10px;
     padding-left: 3px;
@@ -42,10 +39,7 @@ html {
      background-image: url('img/nav.png');
      background-size: cover;
      border-radius: 50px;
-     margin-top: 27px;
-     margin-left: 810px;
-     margin-right: 165px;
-     margin-bottom: 120px;
+     margin: 27px 165px 120px 810px;
      cursor: pointer;
  }
 .header-container{
@@ -68,7 +62,7 @@ h1 {
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 74px; /* 123.333% */
+    line-height: 74px;
     margin-bottom: 24px;
 }
 #descr{
@@ -80,7 +74,7 @@ h1 {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
     margin-bottom: 48px;
 }
 .header_link {
@@ -107,7 +101,6 @@ h1 {
 main {
     background: #FFF;
     display: block;
-    /* height: 927px; */
 }
 .main_container{
     margin-top: 140px;
@@ -150,7 +143,7 @@ h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 34px; /* 141.667% */
+    line-height: 34px;
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 27px;
@@ -162,7 +155,7 @@ h2 {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 185.714% */
+    line-height: 26px;
 }
 .main_link{
     display: inline-flex;
@@ -198,7 +191,7 @@ section {
     width: 1275px;
     flex-shrink: 0;
     background: #FAFAFA;
-    box-shadow: 50px 130px 100px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 50px 130px 100px 0 rgba(0, 0, 0, 0.15);
     padding-top: 70px;
     padding-bottom: 55px;
     position: relative;
@@ -221,7 +214,7 @@ section {
     font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 74px; /* 123.333% */
+    line-height: 74px;
     padding-bottom: 18px;
 }
 .section_link {
@@ -242,11 +235,6 @@ footer {
     background-image: url("img/footerbg.png");
     padding-top: 291px;
 }
-.footer_container{
-  /*  padding: 0 15px;
-    margin: 0 auto; */
-}
-
 .footer_top{
     padding-bottom: 52px;
     display: flex;
@@ -256,7 +244,6 @@ footer {
 }
 .footer_contacts_item {
     margin-right: 70px;
-
 }
 .contacts_text{
     display: block;
@@ -266,7 +253,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 250% */
+    line-height: 40px;
     padding-bottom: 3px;
 }
 .contacts_value {
@@ -275,12 +262,12 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 250% */
+    line-height: 40px;
     text-decoration: none;
     display: inline-block;
     padding-top: 4px;
 }
-.footer_middle{
+.footer_middle {
     width: 1110px;
     margin-left: 167px;
 }
@@ -296,7 +283,6 @@ footer {
 }
 #column_2 {
     margin-left: -27px;
-
 }
 #column_4{
     width: 322px;
@@ -307,7 +293,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 38px; /* 237.5% */
+    line-height: 38px;
     text-transform: uppercase;
 }
 .footer_list {
@@ -321,7 +307,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 250% */
+    line-height: 40px;
 }
 .footer_link {
     color: #B6C197;
@@ -329,7 +315,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
     text-decoration: none;
 }
 .footer_text {
@@ -338,7 +324,7 @@ footer {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; /* 162.5% */
+    line-height: 26px;
     margin-top: 23px;
     width: 270px;
 }
@@ -368,7 +354,7 @@ footer {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 38px; /* 158.333% */
+    line-height: 38px;
     margin-top: 21px;
     margin-bottom: 26px;
     text-decoration: none;
@@ -380,7 +366,6 @@ footer {
 .social_item{
     width: 33px;
     height: 33px;
-    /* background-image: url("img/oval.png"); */
     background-color: #444A34;
     border-radius: 50%;
     margin-right: 12px;
