@@ -13,7 +13,7 @@ html {
     flex-shrink: 0;
     width: 1440px;
     height: 820px;
-    background: url("/img/bg.png");
+    background: url("img/bg.png");
     background-repeat: no-repeat;
 }
 .header_top{
